@@ -10,7 +10,6 @@ body {
 
 #row1 {
   height: 80px;
-  border: 1px solid red;
   text-align: center;
 }
 
@@ -36,46 +35,47 @@ body {
 
 #row2 {
   height: 660px;
-  border: 1px solid red;
 }
 
 #content-container {
+  border: 1px solid #666666;
   background-color: #dddddd;
 }
 
 .about-main-content {
-  border: 1px solid red;
+  border: 1px solid #666666;
   margin-top: 20px;
   margin-left: 150px;
   margin-right: 150px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 10px;
+  padding-top: 20px;
   height: 550px;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   background-color: #ffffff;
 }
 
 .contact-main-content {
-  border: 1px solid red;
+  border: 1px solid #666666;
   margin-top: 20px;
   margin-left: 150px;
   margin-right: 150px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 10px;
+  padding-top: 20px;
   height: 550px;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   background-color: #ffffff;
 }
 
 .portfolio-main-content {
+  border: 1px solid #666666;
   margin-top: 20px;
   margin-left: 150px;
   margin-right: 150px;
-  padding-left: 20px;
+  padding-left: 30px;
   padding-right: 20px;
-  padding-top: 10px;
+  padding-top: 20px;
   height: 550px;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   background-color: #ffffff;
@@ -84,35 +84,40 @@ body {
 #about-me {
   font-family: 'Georgia', Times, Times New Roman, serif;
   font-size: 20px;
+  color: #4aaaa5
 }
 
 #portfolio-box1, #portfolio-box2, #portfolio-box3, #portfolio-box4 {
   height: 200px;
   width: 200px;
+  margin-top: 20px;
 }
 
 #project1, #project2, #project3, #project4 {
   height: 135px;
   width: 135px;
   background-color: #4aaaa5;
-  margin: auto;
   border: 10px solid white;
   outline: 14px ridge #666666;
 }
 
+#project1, #project3 {
+  margin-left: 20px;
+}
+
+#project2, #project4 {
+  margin-left: -120px;
+}
+
 #row3 {
   height: 8px;
-  border: 1px solid red;
+  background-color: #4aaaa5;
 }
 
 #row4 {
   height: 40px;
-  border: 1px solid red;
+  background-color: #666666;
   text-align: center;
-}
-
-.col {
-  border: 1px solid red;
 }
 
 img {
@@ -139,4 +144,11 @@ img {
 #submit:hover {
   background-color: #4aaaa5;
   color: #ffffff;
+}
+
+#footer {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 40px;
+  font-size: 12px;
 }

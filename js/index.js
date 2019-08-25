@@ -13,7 +13,7 @@ const eventChange = (event) => {
   event.target.style.transition = 'height 1s, width 1s';
   event.target.style.height = '150px'
   event.target.style.width = '150px'
-  event.target.innerHTML = 'Something Awesome Coming'
+  event.target.innerHTML = 'Something Awesome!'
 };
 
 const eventReturn = (event) => {
