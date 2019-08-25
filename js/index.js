@@ -9,12 +9,18 @@ arrayItems.forEach((thingy) => {
 
 // Now I'm making 2 functions that apply CSS styling and some text changes to each div id. One function to alter the DOM element and the other function to return the DOM back to its original state upon the assigned event.
 const eventChange = (event) => {
-  event.target.style.backgroundColor = '#4aaaa5';
+  event.target.style.backgroundColor = 'yellow';
+  event.target.style.transition = 'height 1s, width 1s';
+  event.target.style.height = '150px'
+  event.target.style.width = '150px'
   event.target.innerHTML = 'Something Awesome Coming'
 };
 
 const eventReturn = (event) => {
   event.target.style.backgroundColor = '';
+  event.target.style.transition = 'height 1s, width 1s';
+  event.target.style.height = ''
+  event.target.style.width = ''
   event.target.innerHTML = 'Stay Tuned!'
 };
 
