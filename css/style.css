@@ -17,12 +17,42 @@ body {
   border: 1px solid red;
 }
 
-.main-content {
+.about-main-content {
   border: 1px solid red;
   margin-top: 20px;
   margin-left: 150px;
   margin-right: 150px;
-  height: 400px;
+  height: 600px;
+}
+
+.contact-main-content {
+  border: 1px solid red;
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 600px;
+}
+
+.portfolio-main-content {
+  border: 1px solid red;
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 600px;
+}
+
+#portfolio-box1, #portfolio-box2, #portfolio-box3, #portfolio-box4 {
+  height: 200px;
+  width: 200px;
+}
+
+#project1, #project2, #project3, #project4 {
+  height: 135px;
+  width: 135px;
+  background-color: rgba(255, 220, 22, 1);
+  margin: auto;
+  border: 10px solid white;
+  outline: 14px ridge rgba(255, 0, 51, 1);
 }
 
 #row3 {
@@ -49,4 +79,19 @@ img {
   padding-right: 10px;
   height: 270px;
   width: 250px;
+}
+
+#name-text {
+  width: 755px;
+  height: 30px;
+}
+
+#email-text {
+  width: 754px;
+  height: 30px;
+}
+
+#submit:hover {
+  background-color: #4aaaa5;
+  color: #ffffff;
 }
