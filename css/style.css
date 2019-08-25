@@ -39,3 +39,14 @@ body {
 .col {
   border: 1px solid red;
 }
+
+img {
+  padding: 10px;
+}
+
+#image {
+  float: left;
+  padding-right: 10px;
+  height: 270px;
+  width: 250px;
+}
