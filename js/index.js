@@ -13,7 +13,7 @@ const eventChange = (event) => {
   event.target.style.transition = 'height 1s, width 1s';
   event.target.style.height = '150px'
   event.target.style.width = '150px'
-  event.target.innerHTML = 'Something Awesome!'
+  event.target.innerHTML = 'Something Awesome is Coming!'
 };
 
 const eventReturn = (event) => {
@@ -21,7 +21,7 @@ const eventReturn = (event) => {
   event.target.style.transition = 'height 1s, width 1s';
   event.target.style.height = ''
   event.target.style.width = ''
-  event.target.innerHTML = 'Stay Tuned!'
+  event.target.innerHTML = ''
 };
 
 // Now that the functions are set, I have to assign when the function actions happen and this is what these event assignment functions are for. When you hover the cursor over the div element, the change occurs and when the cursor (or mouse techniocally) leaves the div, the DOM returns back to its normal state when the page was loaded.

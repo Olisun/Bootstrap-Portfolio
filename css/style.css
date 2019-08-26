@@ -3,7 +3,7 @@ body {
   width: 1600px;
 }
 
-.container {
+#container {
   margin: auto;
   border: 1px solid #666666;
 }
@@ -17,13 +17,17 @@ body {
   height: 80px;
   padding-top: 25px;
   padding-bottom: 10px;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 302px;
+  margin-right: 300px;
   background-color: #4aaaa5;
   font-family: 'Georgia', Times, Times New Roman, serif;
   font-size: 20px;
   color: #ffffff;
   text-align: center
+}
+
+#navbar {
+  margin-left: 225px;
 }
 
 #nav-titles {
@@ -40,13 +44,14 @@ body {
 #content-container {
   border: 1px solid #666666;
   background-color: #dddddd;
+  width: 1600px
 }
 
 .about-main-content {
   border: 1px solid #666666;
   margin-top: 20px;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 302px;
+  margin-right: 300px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
@@ -58,8 +63,8 @@ body {
 .contact-main-content {
   border: 1px solid #666666;
   margin-top: 20px;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 302px;
+  margin-right: 300px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
@@ -71,9 +76,9 @@ body {
 .portfolio-main-content {
   border: 1px solid #666666;
   margin-top: 20px;
-  margin-left: 150px;
-  margin-right: 150px;
-  padding-left: 30px;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
   height: 550px;
@@ -84,13 +89,28 @@ body {
 #about-me {
   font-family: 'Georgia', Times, Times New Roman, serif;
   font-size: 20px;
-  color: #4aaaa5
+  color: #4aaaa5;
+  margin-left: 10px;
+}
+
+em {
+  font-size: 14px;
 }
 
 #portfolio-box1, #portfolio-box2, #portfolio-box3, #portfolio-box4 {
   height: 200px;
   width: 200px;
   margin-top: 20px;
+}
+
+#portfolio-box1, #portfolio-box3 {
+  margin-left: 20px;
+  margin-right: 250px;
+}
+
+#portfolio-box2, #portfolio-box4 {
+  margin-left: -500px;
+  margin-right: 100px;
 }
 
 #project1, #project2, #project3, #project4 {
@@ -101,12 +121,19 @@ body {
   outline: 14px ridge #666666;
 }
 
-#project1, #project3 {
+
+/* #project1, #project3 {
   margin-left: 20px;
 }
 
 #project2, #project4 {
   margin-left: -120px;
+} */
+
+#project-message {
+  text-align: center;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #ffffff;
 }
 
 #row3 {
@@ -131,14 +158,25 @@ img {
   width: 250px;
 }
 
+form {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 14px;
+}
+
 #name-text {
-  width: 760px;
+  width: 920px;
   height: 30px;
+  padding-left: 10px;
 }
 
 #email-text {
-  width: 760px;
+  width: 920px;
   height: 30px;
+  padding-left: 10px;
+}
+
+textarea {
+  padding-left: 10px;
 }
 
 #submit:hover {
@@ -146,9 +184,9 @@ img {
   color: #ffffff;
 }
 
-#footer {
+code {
   text-align: center;
+  padding-top: 200px;
   color: #ffffff;
-  margin-top: 40px;
-  font-size: 12px;
+  font-size: 10px;
 }
