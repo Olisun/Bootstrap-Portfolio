@@ -1,6 +1,6 @@
 // Here's my logic:
 
-// I put the 4 projects' ids into an array and using the forEach method, I'm pushing each one into an empty array. I'm basically saying for each id, apply the same DOM method which is to grab that element from the DOM based on its id. This way, I don't have write the same 4 functions for each id (neat little trick I learned from CodeAcademy!)
+// I put the 4 projects' ids into an array and using the forEach method, I'm pushing each one into an empty array. I'm basically saying for each id, apply the same DOM method which is to grab that element from the DOM based on its id. This way, I don't have write the same 4 functions for each id.
 const arrayItems = ['project1', 'project2', 'project3', 'project4'];
 const singleItem = [];
 arrayItems.forEach((thingy) => {
